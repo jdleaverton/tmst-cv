@@ -9,4 +9,4 @@ This project aims to filter out good images from bad ones captured by the TMST c
 
 3. Data Analysis: I performed some basic statistical analysis on the standard deviation data and plotted it for better visualization. This is done in [data_analysis.py](data_analysis.py) (lines 6-36).
 
-4. Gray-Level Co-occurrence Matrix (GLCM) Features: I calculate GLCM features (contrast, dissimilarity, homogeneity, energy, correlation) for each image. These features can provide information about the texture of the images and can be used to identify images with noise or other quality issues. This is done in [additional_analysis.py](additional_analysis.py) (lines 11-31).
+4. Gray-Level Co-occurrence Matrix (GLCM) Features: I calculated GLCM features (contrast, dissimilarity, homogeneity, energy, correlation) for each image. These features are probably the best indicators of good vs bad images. I talk about this in the slide deck I made. This is done in [additional_analysis.py](additional_analysis.py) (lines 11-31).
